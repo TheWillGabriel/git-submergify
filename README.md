@@ -13,9 +13,15 @@ cd /name/of/local/directory
 curl -o git-submergify.sh https://github.com/TheWillGabriel/git-submergify/raw/master/git-submergify.sh
 ```
 
-2. Create an empty GitHub repository as the new remote parent _note: You must be authorized to connect to your GitHub account [using SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)_
+2. Make the script executable
 
-3. Run the script
+```bash
+chmod +x git-submergify.sh
+```
+
+3. Create an empty GitHub repository as the new remote parent _note: You must be authorized to connect to your GitHub account [using SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)_
+
+4. Run the script
 
 Interactive mode:
 
