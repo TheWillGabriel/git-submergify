@@ -1,12 +1,20 @@
 #!/bin/bash
-echo "GitHub username?"
-read _username
 
-echo "Parent repository name?"
-read _parent
+_username=$1
+_parent=$2
+_children=$3
 
-echo "Child repository names? (space separated)"
-read _children
+while getopts ":i" opt; do
+  echo "GitHub username?"
+  read _username
+
+  echo "Parent repository name?"
+  read _parent
+
+  echo "Child repository names? (space separated)"
+  read _children
+done
+
 IFS=" " read -ra _child_array <<< "$_children"
 
 echo
