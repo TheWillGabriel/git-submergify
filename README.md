@@ -2,6 +2,8 @@
 
 A shell script to merge related child repositories into one parent repository.
 
+See [this blog post](https://willgabriel.dev/posts/merging-sub-projects-into-one-git-repository) walking through the creation of this script.
+
 Requires Git >= 2.9.0
 
 ## Usage
