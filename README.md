@@ -29,11 +29,11 @@ _note: You must be authorized to connect to your GitHub account [using SSH](http
 Interactive mode:
 
 ```bash
-./git-submergify -i
+./git-submergify.sh -i
 ```
 
 Non-interactive mode:
 
 ```bash
-./git-submergify GIT_USERNAME PARENT_NAME "CHILD_1 CHILD_2 CHILD_3 [...]"
+./git-submergify.sh GIT_USERNAME PARENT_NAME "CHILD_1 CHILD_2 CHILD_3 [...]"
 ```
